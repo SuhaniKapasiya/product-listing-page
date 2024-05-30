@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Product Listing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This project is a responsive product listing page with basic functionalities developed using React.js, Tailwind CSS, and a mock API. It allows users to view a list of products, search for products by name, view product details in a modal, and add/remove products to/from a shopping cart.
 
-## Available Scripts
+## Features
+- **Responsive UI:** The page layout adjusts seamlessly across different devices.
+- **Fetching Data:** Product data is fetched from a mock API ([Fake Store API](https://fakestoreapi.com/products)).
+- **Product Listing:** Displays products in a grid layout.
+- **Search:** Implements a search bar to filter products by name.
+- **Product Details:** Provides a modal to display detailed information about each product.
+- **Add to Cart:** Allows users to add products to a shopping cart.
+- **Remove from Cart:** Enables users to remove products from the shopping cart.
 
-In the project directory, you can run:
+## Tech Stack
+- **React.js:** JavaScript library for building user interfaces.
+- **Tailwind CSS:** Utility-first CSS framework for styling.
+- **Mock API:** Utilizes the Fake Store API for mock product data.
 
-### `npm start`
+## Setup
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Install dependencies using `npm install`.
+4. Run the project using `npm start`.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
+- Upon launching the application, users can see a list of products fetched from the mock API.
+- Users can search for specific products using the search bar.
+- Clicking on the "Details" button of a product opens a modal displaying its details.
+- Users can add products to the shopping cart by clicking the "Add to Cart" button.
+- The shopping cart section displays all added products, allowing users to remove them individually.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Folder Structure
+- **components:** Contains reusable React components used in the project.
+- **App.js:** Main entry point of the application.
+- **README.md:** Documentation file (you're currently reading it).
 
-### `npm test`
+## Live Demo
+You can view the live demo of the project [here](https://product-listing-page-lovat.vercel.app/).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Credits
+- **Fake Store API:** Provides mock product data for the application.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
