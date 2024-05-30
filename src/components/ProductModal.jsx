@@ -15,7 +15,7 @@ const ProductModal = ({ product, onClose }) => {
           <img
             src={product.image}
             alt={product.title}
-            className="w-full h-full"
+            className="w-full h-full object-contain"
           />
         </div>
         <p>{product.description}</p>
