@@ -6,7 +6,9 @@ import { Toaster, toast } from "react-hot-toast";
 import Navbar from "./components/Navbar";
 
 const App = () => {
+
   const [searchQuery, setSearchQuery] = useState("");
+  
   const [cart, setCart] = useState([]);
 
   const addToCart = (product) => {
